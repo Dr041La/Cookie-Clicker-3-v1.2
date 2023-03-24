@@ -1,0 +1,22 @@
+﻿<Window x:Class="Cookie_Clicker_3.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cookie_Clicker_3"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.527,0.461">
+        <Grid.Background>
+            <ImageBrush ImageSource="/maxresdefault.jpg"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Left" Height="101" Margin="169,24,0,0" VerticalAlignment="Top" Width="100" Source="/P004.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="169,149,0,0" VerticalAlignment="Top" Width="100" Source="/maxresdefault (1).jpg" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="169,288,0,0" VerticalAlignment="Top" Width="100" Source="/maxresdefault (2).jpg" Stretch="Fill"/>
+        <Button x:Name="Выход" Content="Закрыть" HorizontalAlignment="Left" Margin="689,24,0,0" VerticalAlignment="Top" Click="Button_Click" Background="Red" Height="66" Width="64"/>
+        <Button Content="    &#xD;&#xA;Баргер&#xD;&#xA;&#xD;&#xA;1000 печенек" HorizontalAlignment="Left" Height="70" Margin="319,39,0,0" VerticalAlignment="Top" Width="203" Click="Button_Click_1" FontFamily="Arial" Background="#FFE7FF9A"/>
+        <Button Content="Кола красная цена&#xD;&#xA;&#xD;&#xA;5000 печенек" HorizontalAlignment="Left" Height="70" Margin="319,164,0,0" VerticalAlignment="Top" Width="203" Background="#FF8BA7FF"/>
+        <Button Content="Хуч и лейс зелёный лук&#xD;&#xA; &#xD;&#xA;        100000 печенек" HorizontalAlignment="Left" Height="69" Margin="319,304,0,0" VerticalAlignment="Top" Width="203" Background="#FFE471FF"/>
+
+    </Grid>
+</Window>
